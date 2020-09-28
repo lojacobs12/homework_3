@@ -84,10 +84,6 @@ tr:nth-child(even){
   background-color: #D1D1D1
 }
 
-tbody tr:hover{
-  background: rgba(126, 8, 32, .25)
-}
-
 tr>th:last-child{
   border-radius: 0px, 0px, 0px, 0px;
 }
@@ -95,8 +91,13 @@ tr>th:last-child{
 tbody tr:last-child td:last-child{ 
   border-radius: 10px
 }
+
 thead tr:first-child th:first-child{
   border-radius: 10px;
+}
+
+tbody tr:hover{
+  background: rgba(126, 8, 32, .25)
 }
 
 footer{
