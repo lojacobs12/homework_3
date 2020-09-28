@@ -54,12 +54,12 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .rowhead{
@@ -92,11 +92,17 @@ tr>th:last-child{
   border-radius: 0px, 0px, 0px, 0px;
 }
 
+tbody tr:last-child td:last-child{ 
+  border-radius: 10px
+}
 thead tr:first-child th:first-child{
   border-radius: 10px;
 }
 
 footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
   min-height: 75px;
   width:100%;
   background:#000000;
